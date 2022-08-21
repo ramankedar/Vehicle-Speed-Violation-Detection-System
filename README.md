@@ -2,7 +2,7 @@
 This is a readme file for the script file for the project Speed violation detection system titled under limitspeed.
 Software used - Anaconda 2021.05
 
-sheetlink for this pre-setup:https://docs.google.com/spreadsheets/d/120zxpm-IhVyBIDIkPdu8WuEHvbtunJud87ju9lOU5Lk/edit#gid=0
+sheetlink for this pre-setup: {link}[https://docs.google.com/spreadsheets/d/120zxpm-IhVyBIDIkPdu8WuEHvbtunJud87ju9lOU5Lk/edit#gid=0]
 (You can create your own sheet as well as drive.)
 
 ###################################################################################

@@ -2,11 +2,9 @@
 This is a readme file for the script file for the project Speed violation detection system titled under limitspeed.
 Software used - Anaconda 2021.05
 
-sheetlink for this pre-setup: [link](https://docs.google.com/spreadsheets/d/120zxpm-IhVyBIDIkPdu8WuEHvbtunJud87ju9lOU5Lk/edit#gid=0)
+Spreadsheet link for this pre-setup: [link](https://docs.google.com/spreadsheets/d/120zxpm-IhVyBIDIkPdu8WuEHvbtunJud87ju9lOU5Lk/edit#gid=0)
 (You can create your own sheet as well as drive.)
-
-###################################################################################
-
+----------------------------------------------
 For running the script. In Anaconda prompt:
 1. User must create a separate environment. Certain dependencies need to be installed on the system before moving ahead with the execution.
 	a. conda create --name new_env
@@ -22,9 +20,7 @@ For running the script. In Anaconda prompt:
 	 Go to Pytorch.org for more information if some other configuration of system is present.
 2. After installing the Pytorch dependencies replace the Upsampling file present in the address C:\ProgramData\Anaconda3\lib\site-packages\torch\nn\modules\upsampling.py by the upsampling file provided in the materials folder.
 3. Run limitspeed_main.py in the source file on this new env.
-
-####################################################################################
-
+----------------------------------------------
 For using the GUI
 1. There are three options in the settings 
    a. Camera :- First select which port to use in listbox.
@@ -43,9 +39,7 @@ For using the GUI
    c. Database is used to put the google sheet token in which the information will be stored. Here the auth token is required of the gdrive.
 
 Play and Pause buttons have been given for convenience.
-
-####################################################################################
-
+----------------------------------------------
 For getting a google sheet link to store the information in.
 
 1. Go to google console cloud ---> "https://console.cloud.google.com"
@@ -55,11 +49,8 @@ For getting a google sheet link to store the information in.
 4. Search and Download the following apis :
 	i. Google drive api
   	ii. Google sheets api
-
 ----------------------------------------------
-
 ## Configuration of api ##
-
 1. After Enabling the api, click on manage button.
 2. Click on the create credentials button:-
 3. In select an api select box, select Google drive api.
@@ -79,18 +70,12 @@ For getting a google sheet link to store the information in.
 	iv. Select Add key drop box ---> create new Key ----> json ---> click create
 	v. A JSON file will be downloaded.
 	vi. Copy the downloaded json file and paste it inside the folder where you installed the app and rename it as "sheet_auth.json".
-
---------------------------------------
-
-
+-------------------------------------
 5. create a new sheet, name it "ML_project"
 	i. Inside the google sheet, click on share.
 	ii. Go to the downloaded json file and copy the client email.
  	iii. Give access to the client email as a editor in google sheets
-
-
 --------------------------------------
-
 ###Creating a new auth token
 1. Visit "https://developers.google.com/oauthplayground/"
 2. Inside Select & authorize APIs, select drive api v3 ----> select "https://www.googleapis.com/auth/drive" ---> click authorize APIs button.
@@ -102,12 +87,11 @@ For getting a google sheet link to store the information in.
 
 ###### APP should Work Now ########
 ###### We Hope our Project is useful to you :-) #####
-
-#########################
+----------------------------------------------
 Common Error can one see:
 Keyword id error:
 When the gdrive auth key is expired.
- You need to create new token and you can edit the config.json file or change the token in the GUI.
+You need to create new token and you can edit the config.json file or change the token in the GUI.
 
 GSpread Exception: the given 'expected_headers' are not uniques:
 In such case the sheet might have blank spaces in the header location which are creating common headers.

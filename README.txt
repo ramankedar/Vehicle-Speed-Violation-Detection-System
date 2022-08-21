@@ -110,11 +110,3 @@ When the gdrive auth key is expired.
 GSpread Exception: the given 'expected_headers' are not uniques:
 In such case the sheet might have blank spaces in the header location which are creating common headers.
 You need to clear all the sheet once again and start over the software.
-
-
-
-
-
-
-
-

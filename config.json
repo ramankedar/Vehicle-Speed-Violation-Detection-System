@@ -1,0 +1,9 @@
+{
+    "region_line_up": 316,
+    "region_line_down": 503,
+    "distance_between_region": 10,
+    "pixel_limit_bw_cars": 50,
+    "speed_limit": 40,
+    "filename": "sample5.mp4",
+    "auth_token": "ya29.A0ARrdaM_O-u1lGyncLDeLQxm9EF_Gl-TrTMnXeKEy6bhbYyjaF0IW9jsevN44RQFhKmI3kBzeQwFgUz002ezbIvfac8-mrVaOAi7lqm73Mmpk8I2gOtKG7SibV4vd8Vj1PxxKbhvfpKp34fT9pnOE5eXqIwZ5"
+}

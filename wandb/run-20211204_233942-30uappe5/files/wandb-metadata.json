@@ -1,0 +1,33 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-12-04T18:09:48.722715",
+    "startedAt": "2021-12-04T18:09:42.293688",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "50",
+        "--weights",
+        "yolov5m.pt"
+    ],
+    "state": "running",
+    "program": "D:\\Final Year Proj\\Vehicle-Detection\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/MaryamBoneh/Vehicle-Detection.git",
+        "commit": "f71d8556449f3bdeea49f3eeb1e13a9ffcafb658"
+    },
+    "email": "64550125+yashhhj@users.noreply.github.com",
+    "root": "D:/Final Year Proj/Vehicle-Detection",
+    "host": "LAPTOP-NA1O2EFP",
+    "username": "Hp",
+    "executable": "C:\\Users\\Hp\\anaconda3\\python.exe"
+}
